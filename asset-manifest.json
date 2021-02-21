@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/product-marketing-app/static/css/main.75211425.chunk.css",
+    "main.js": "/product-marketing-app/static/js/main.17dd1bb6.chunk.js",
+    "main.js.map": "/product-marketing-app/static/js/main.17dd1bb6.chunk.js.map",
+    "runtime-main.js": "/product-marketing-app/static/js/runtime-main.ce2a2181.js",
+    "runtime-main.js.map": "/product-marketing-app/static/js/runtime-main.ce2a2181.js.map",
+    "static/js/2.73f03c36.chunk.js": "/product-marketing-app/static/js/2.73f03c36.chunk.js",
+    "static/js/2.73f03c36.chunk.js.map": "/product-marketing-app/static/js/2.73f03c36.chunk.js.map",
+    "index.html": "/product-marketing-app/index.html",
+    "static/css/main.75211425.chunk.css.map": "/product-marketing-app/static/css/main.75211425.chunk.css.map",
+    "static/js/2.73f03c36.chunk.js.LICENSE.txt": "/product-marketing-app/static/js/2.73f03c36.chunk.js.LICENSE.txt",
+    "static/media/logo.f3d23e4c.png": "/product-marketing-app/static/media/logo.f3d23e4c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ce2a2181.js",
+    "static/js/2.73f03c36.chunk.js",
+    "static/css/main.75211425.chunk.css",
+    "static/js/main.17dd1bb6.chunk.js"
+  ]
+}
