@@ -10,11 +10,10 @@ const Routes = () =>{
     return(
         <BrowserRouter>
             <Switch>
-                <Route path="/" exact component={Home}></Route>
-                <Route path="/product-marketing-app" exact component={Home}></Route>
-                <Route path="/buy" exact component={Buy}></Route>
-                <Route path="/SignUp" exact component={SignUp}></Route>
-                <Route path="/SignIn" exact component={SignIn}></Route>
+                <Route path={process.env.PUBLIC_URL + '/'} exact component={Home}></Route>
+                <Route path={process.env.PUBLIC_URL + '/buy'} exact component={Buy}></Route>
+                <Route path={process.env.PUBLIC_URL + '/signUp'} exact component={SignUp}></Route>
+                <Route path={process.env.PUBLIC_URL + '/signIn'} exact component={SignIn}></Route>
 
             </Switch>
         </BrowserRouter>

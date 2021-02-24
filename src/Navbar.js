@@ -25,16 +25,16 @@ const Navbar = ({history}) => {
             <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
                 <li className="nav-item">
-                    <Link style={currentTab(history, "/")} className="nav-link" to="/">Home</Link>
+                    <Link style={currentTab(history, process.env.PUBLIC_URL+"/")} className="nav-link" to={process.env.PUBLIC_URL + '/'}>Home</Link>
                 </li>
                 <li className="nav-item">
-                    <Link style={currentTab(history, "/buy")} className="nav-link" to="/buy">Buy Now</Link>
+                    <Link style={currentTab(history, process.env.PUBLIC_URL+"/buy")} className="nav-link" to={process.env.PUBLIC_URL + '/buy'}>Buy Now</Link>
                 </li>
                 <li className="nav-item">
-                    <Link style={currentTab(history, "/signUp")} className="nav-link" to="/signUp">SignUp</Link>
+                    <Link style={currentTab(history, process.env.PUBLIC_URL+"/signUp")} className="nav-link" to={process.env.PUBLIC_URL + '/signUp'}>SignUp</Link>
                 </li>
                 <li className="nav-item">
-                    <Link style={currentTab(history, "/signIn")} className="nav-link" to="/signIn">SignIn</Link> 
+                    <Link style={currentTab(history, process.env.PUBLIC_URL+"/signIn")} className="nav-link" to={process.env.PUBLIC_URL + '/signIn'}>SignIn</Link> 
                 </li>
             </ul>
             </div>
